@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 env:
-  IMAGE_DOCKERHUB: ${{ secrets.DOCKERHUB_USERNAME }}/apihorario-cache-redis
+  IMAGE_DOCKERHUB: ${{ secrets.DOCKERHUB_USERNAME }}/workertests-dotnet8
   DIR_WEBAPP: './WorkerTests'
   
 jobs:
